@@ -1,9 +1,8 @@
+from vector import Vector
 from matrix import Matrix
 
 m1 = Matrix.random(3, 4)
 
-# 1 cry
-# 2 goto 1
 # read in the matrix.txt
 # filter the 4x2 and 2x4 matrices into
 # different lists
@@ -15,3 +14,9 @@ m1 = Matrix.random(3, 4)
 # and add them together
 
 # multiply a matrix times a vector
+
+v1 = Vector(1, 2, 3)
+v2 = Vector(4, 5, 6)
+m2 = Matrix(v1, v2)
+
+print(m1, m2)
